@@ -7,7 +7,7 @@ Welcome to my project.
 ### Demo
 
 
-Click [here](https://shahadath-rifat.github.io/fit-studio/) to test the application
+Click [here](https://asifahmedbhuiyan.github.io/alarm-clock/) to test the application
 
 
 <br/>
