@@ -1,2 +1,64 @@
 @import url("./reset.css");
 
+.container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.clock {
+	font-size: 100px;
+	font-weight: 200;
+	color: #fff;
+	background-color: #000;
+	padding: 30px 50px;
+	border-radius: 10px;
+	margin-bottom: 20px;
+}
+
+.alarm {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+form {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-bottom: 10px;
+}
+
+label, input, button {
+	font-size: 20px;
+	margin-right: 10px;
+}
+
+input {
+	width: 80px;
+	padding: 5px;
+  text-align: center;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+}
+
+button {
+	padding: 5px 10px;
+	border-radius: 5px;
+	border: none;
+	background-color: #007bff;
+	color: #fff;
+	cursor: pointer;
+}
+
+button:disabled {
+	background-color: #ccc;
+	color: #666;
+	cursor: not-allowed;
+}
+
+button:hover {
+  background-color: #ff0000;
+}
