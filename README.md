@@ -1,6 +1,6 @@
 ### Hello there
 
-Welcome to our project.
+Welcome to my project.
 
 
 

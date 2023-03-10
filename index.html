@@ -13,7 +13,19 @@
     </head>
     <body>
       <div class="container">
-        
+        <div class="clock">
+          <span id="hours">00</span> :
+          <span id="minutes">00</span> :
+          <span id="seconds">00</span>
+        </div>
+        <div class="alarm">
+          <form>
+            <label for="alarm-time">Set Alarm:</label>
+            <input type="text" id="alarm-time" placeholder="hh:mm">
+            <button type="button" id="set-alarm-btn">Set</button>
+          </form>
+          <p id="alarm-status"></p>
+        </div>
       </div>
     </body>
 </html>
